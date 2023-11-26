@@ -1,0 +1,22 @@
+#logback.classic pattern: [REQUEST1] [%-5level] %d{yyyy-MM-dd HH:mm:ss} {%thread} [%logger{40}:%line] - %msg%n
+[REQUEST1] [INFO ] 2023-11-26 15:07:45 {main} [dev.be.logback.LogbackApplication:55] - Starting LogbackApplication using Java 17.0.8 on localhost with PID 52234 (/Users/jung-incheol/Desktop/study/Logback/build/classes/java/main started by jung-incheol in /Users/jung-incheol/Desktop/study/Logback)
+[REQUEST1] [INFO ] 2023-11-26 15:07:45 {main} [dev.be.logback.LogbackApplication:640] - The following 1 profile is active: "prod"
+[REQUEST1] [INFO ] 2023-11-26 15:07:45 {main} [o.s.b.w.embedded.tomcat.TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+[REQUEST1] [INFO ] 2023-11-26 15:07:45 {main} [org.apache.catalina.core.StandardService:173] - Starting service [Tomcat]
+[REQUEST1] [INFO ] 2023-11-26 15:07:45 {main} [org.apache.catalina.core.StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[REQUEST1] [INFO ] 2023-11-26 15:07:45 {main} [o.a.c.c.C.[Tomcat].[localhost].[/]:173] - Initializing Spring embedded WebApplicationContext
+[REQUEST1] [INFO ] 2023-11-26 15:07:45 {main} [o.s.b.w.s.c.ServletWebServerApplicationContext:292] - Root WebApplicationContext: initialization completed in 325 ms
+[REQUEST1] [INFO ] 2023-11-26 15:07:45 {main} [o.s.b.w.embedded.tomcat.TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+[REQUEST1] [INFO ] 2023-11-26 15:07:45 {main} [dev.be.logback.LogbackApplication:61] - Started LogbackApplication in 0.626 seconds (JVM running for 0.836)
+[REQUEST1] [INFO ] 2023-11-26 15:07:46 {http-nio-8080-exec-1} [o.a.c.c.C.[Tomcat].[localhost].[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[REQUEST1] [INFO ] 2023-11-26 15:07:46 {http-nio-8080-exec-1} [o.s.web.servlet.DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+[REQUEST1] [INFO ] 2023-11-26 15:07:46 {http-nio-8080-exec-1} [o.s.web.servlet.DispatcherServlet:547] - Completed initialization in 0 ms
+[REQUEST1] [INFO ] 2023-11-26 15:07:46 {http-nio-8080-exec-1} [dev.be.logback.controller.DemoController:15] - log --> INFO
+[REQUEST1] [WARN ] 2023-11-26 15:07:46 {http-nio-8080-exec-1} [dev.be.logback.controller.DemoController:16] - log --> WARN
+[REQUEST1] [ERROR] 2023-11-26 15:07:46 {http-nio-8080-exec-1} [dev.be.logback.controller.DemoController:17] - log --> ERROR
+[REQUEST1] [INFO ] 2023-11-26 15:08:14 {http-nio-8080-exec-2} [dev.be.logback.controller.DemoController:15] - log --> INFO
+[REQUEST1] [WARN ] 2023-11-26 15:08:14 {http-nio-8080-exec-2} [dev.be.logback.controller.DemoController:16] - log --> WARN
+[REQUEST1] [ERROR] 2023-11-26 15:08:14 {http-nio-8080-exec-2} [dev.be.logback.controller.DemoController:17] - log --> ERROR
+[REQUEST1] [INFO ] 2023-11-26 15:08:14 {http-nio-8080-exec-3} [dev.be.logback.controller.DemoController:15] - log --> INFO
+[REQUEST1] [WARN ] 2023-11-26 15:08:14 {http-nio-8080-exec-3} [dev.be.logback.controller.DemoController:16] - log --> WARN
+[REQUEST1] [ERROR] 2023-11-26 15:08:14 {http-nio-8080-exec-3} [dev.be.logback.controller.DemoController:17] - log --> ERROR
